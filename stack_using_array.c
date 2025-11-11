@@ -40,8 +40,9 @@ void display() {
 		printf("STACK IS EMPTY\n");
 	}
 	else {
+		printf("STACK: ");
 		for(int i=top; i>=0; i--) {
-			printf("%d\n",stack[i]);
+			printf("%d  ",stack[i]);
 		}
 	}
 }
@@ -52,7 +53,7 @@ void main() {
 	printf("enter size of stack: ");
 	scanf("%d",&n);
 	while(1) {
-		printf("1. push\n2. pop\n3. peek\n4. display\n5. exit\nenter your choice: ");
+		printf("\n1. push\n2. pop\n3. peek\n4. display\n5. exit\nenter your choice: ");
 		scanf("%d",&choice);
 		switch(choice) {
 		case 1:
