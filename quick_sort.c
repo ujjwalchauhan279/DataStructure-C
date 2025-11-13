@@ -16,8 +16,7 @@ int partition(int arr[], int low, int high)
         {
             j--;
         }
-        if (i < j) // swap smaller element from left to right and
-                   // larger element from right to left 
+        if (i < j)  
         {
             temp = arr[i];
             arr[i] = arr[j];
