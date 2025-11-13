@@ -18,8 +18,7 @@ It’s meant for learning and practicing fundamental concepts of DSA.
 - Insertion Sort
 - Selection Sort
 - Merge Sort
-- Quick Sort (coming soon)
-
+- Quick Sort 
 ---
 
 ## 🧠 Purpose
